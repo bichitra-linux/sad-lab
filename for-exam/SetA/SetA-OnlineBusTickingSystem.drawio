@@ -1,0 +1,79 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36" version="24.7.6">
+  <diagram name="Page-1" id="JGNxIIsGgI_UogwqbrUo">
+    <mxGraphModel dx="1407" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Q1mi_HC60ny_9-CP_xTS-19" value="PASSENGER" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="309" width="160" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1mi_HC60ny_9-CP_xTS-20" value="+Name : Char&lt;div&gt;+Age : Integer&lt;/div&gt;&lt;div&gt;+PhoneNO : Integer&lt;/div&gt;&lt;div&gt;+EmailID : String&lt;/div&gt;&lt;div&gt;+Address : String&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Q1mi_HC60ny_9-CP_xTS-19">
+          <mxGeometry y="26" width="160" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1mi_HC60ny_9-CP_xTS-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Q1mi_HC60ny_9-CP_xTS-19">
+          <mxGeometry y="110" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1mi_HC60ny_9-CP_xTS-22" value="+Searchbus()&lt;div&gt;+booktickets()&lt;/div&gt;&lt;div&gt;+selectseats()&lt;/div&gt;&lt;div&gt;+editdetails()&lt;/div&gt;&lt;div&gt;+makepayment()&lt;/div&gt;&lt;div&gt;+cancletickets()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Q1mi_HC60ny_9-CP_xTS-19">
+          <mxGeometry y="118" width="160" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1mi_HC60ny_9-CP_xTS-23" value="TICKET" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="500" width="160" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1mi_HC60ny_9-CP_xTS-24" value="+ticketnumber : integer&lt;div&gt;+busname : String&lt;/div&gt;&lt;div&gt;+startinglocation : String&lt;/div&gt;&lt;div&gt;+Destination : String&lt;/div&gt;&lt;div&gt;+PassengerID : String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Q1mi_HC60ny_9-CP_xTS-23">
+          <mxGeometry y="26" width="160" height="74" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1mi_HC60ny_9-CP_xTS-25" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Q1mi_HC60ny_9-CP_xTS-23">
+          <mxGeometry y="100" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1mi_HC60ny_9-CP_xTS-26" value="+Cancleticket()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Q1mi_HC60ny_9-CP_xTS-23">
+          <mxGeometry y="108" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1mi_HC60ny_9-CP_xTS-27" value="BUS" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="290" width="160" height="118" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1mi_HC60ny_9-CP_xTS-28" value="+Busname : String&lt;div&gt;+Busnumber : Integer&amp;nbsp;&lt;/div&gt;&lt;div&gt;+Startinglocation : String&lt;/div&gt;&lt;div&gt;+Destination : String&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Q1mi_HC60ny_9-CP_xTS-27">
+          <mxGeometry y="26" width="160" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1mi_HC60ny_9-CP_xTS-29" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Q1mi_HC60ny_9-CP_xTS-27">
+          <mxGeometry y="110" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1mi_HC60ny_9-CP_xTS-31" value="PAYMENT" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="540" width="160" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1mi_HC60ny_9-CP_xTS-32" value="+passengername : string&lt;div&gt;+passengerID : integer&lt;/div&gt;&lt;div&gt;+paymentmethod: string&lt;/div&gt;&lt;div&gt;+amount : double&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Q1mi_HC60ny_9-CP_xTS-31">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1mi_HC60ny_9-CP_xTS-33" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Q1mi_HC60ny_9-CP_xTS-31">
+          <mxGeometry y="90" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1mi_HC60ny_9-CP_xTS-34" value="+makepayment()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Q1mi_HC60ny_9-CP_xTS-31">
+          <mxGeometry y="98" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1mi_HC60ny_9-CP_xTS-35" value="BOOKING SYSTEM" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="100" width="160" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1mi_HC60ny_9-CP_xTS-36" value="+busname : string&lt;div&gt;+startinglocation : string&lt;/div&gt;&lt;div&gt;+destination : string&lt;/div&gt;&lt;div&gt;+ date time : date&lt;/div&gt;&lt;div&gt;+seatnumber : integer&lt;/div&gt;&lt;div&gt;+bookingID : String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Q1mi_HC60ny_9-CP_xTS-35">
+          <mxGeometry y="26" width="160" height="94" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1mi_HC60ny_9-CP_xTS-37" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Q1mi_HC60ny_9-CP_xTS-35">
+          <mxGeometry y="120" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1mi_HC60ny_9-CP_xTS-38" value="+choosebus()&lt;div&gt;+selecttickets()&lt;/div&gt;&lt;div&gt;+makepayment()&lt;/div&gt;&lt;div&gt;+modifyseats()&lt;/div&gt;&lt;div&gt;+cancle()&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Q1mi_HC60ny_9-CP_xTS-35">
+          <mxGeometry y="128" width="160" height="92" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1mi_HC60ny_9-CP_xTS-40" value="BUS OPERATOR" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="52" width="160" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1mi_HC60ny_9-CP_xTS-41" value="+Name : String&lt;div&gt;+id : integer&lt;/div&gt;&lt;div&gt;+phonenumber : integer&amp;nbsp;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Q1mi_HC60ny_9-CP_xTS-40">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1mi_HC60ny_9-CP_xTS-42" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Q1mi_HC60ny_9-CP_xTS-40">
+          <mxGeometry y="90" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="Q1mi_HC60ny_9-CP_xTS-43" value="+ notify passenger()&lt;div&gt;+update status()&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Q1mi_HC60ny_9-CP_xTS-40">
+          <mxGeometry y="98" width="160" height="42" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
